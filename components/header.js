@@ -13,12 +13,12 @@ header.innerHTML = `
                 background-color: blueviolet;
                 color: white;
                 position: sticky;
-
             }
             
             header::after {
                 content: '';
                 display: table;
+                position: sticky;
                 clear: both;
             }
             
@@ -79,10 +79,10 @@ header.innerHTML = `
                 <h1 class = "logo"><a href = "index.html">Little Country Real Estate</a></h1>
                 <nav class = "desktopNav">
                     <ul>
-                        <li><a href="">Buy</a></li>
-                        <li><a href="">Rent</a></li>
-                        <li><a href="">Sell</a></li>
-                        <li><a href="">Agents</a></li>
+                        <li><a href="buy.html">Buy</a></li>
+                        <li><a href="rent.html">Rent</a></li>
+                        <li><a href="sell.html">Sell</a></li>
+                        <li><a href="agents.html">Agents</a></li>
                     </ul>
                 </nav>
             </div>
